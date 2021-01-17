@@ -1,0 +1,201 @@
+/* UNIVERSAL */
+.overflow {
+  position: relative;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: 'Monoton';
+	font-size: 40px;
+}
+
+.mainComponent {
+  margin-left: 20%;
+}
+
+.headerDivider {
+  width: 80%;
+  margin-left: 0px;
+}
+
+/* HEADER */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  height: 150px;
+  color: white;
+  background-color: #222;
+}
+
+.App-title {
+  font-size: 2.0em;
+}
+
+/* HOME PAGE */
+.mainComponent h1 {
+  margin-left: 25%;
+  color: #222;
+}
+
+.mainComponent h3 {
+  font-size: 25px;
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 15%;
+}
+
+.opener {
+  color: #222;
+  font-size: 36px;
+  margin-left: 26%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.preCloser {
+  color: #fff;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 10%;
+}
+
+.midCloser {
+  color: #fff;
+  font-size: 25px;
+  margin-left: 22%;
+  margin-bottom: 0px;
+}
+
+.closer {
+  color: #222;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 32%;
+}
+
+/* FORM */
+h1.formHeader {
+  margin-left: 0;
+}
+
+.firstGrid {
+  margin-top: 30px;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.direction.col-xs-4 {
+  width: 40%;
+}
+
+.secondRow {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dropzone.col-xs-4 {
+  width: 35%;
+}
+
+.imageDisplay {
+  margin-top: 20px;
+}
+
+.submitButton {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.cancelLink {
+  margin-left: 20px;
+}
+
+label {
+  color: #fff;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  font-family: 'Paytone One', sans-serif;
+}
+
+textarea[type="text"] {
+  font-family: 'Paytone One', sans-serif;
+  height: 70px;
+  width: 300px;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+/* INDEX PAGE */
+.dinnerIndexTitle {
+  color: white;
+}
+
+.listDinners {
+  margin-left: 25%;
+}
+
+/* SHOW PAGE */
+h1.dinnerCardTitle {
+  margin-left: 0px;
+  color: #fff;
+  font-family: Arvo;
+  font-weight: bold;
+  text-shadow: -3px -3px 0 #222, 3px -3px 0 #222, -3px 3px 0 #222, 3px 3px 0 #222, 4px 4px 0 #fff, 5px 5px 0 #fff, 6px 6px 0 #fff, 7px 7px 0 #fff;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  font-size: 60px;
+}
+
+.secondGrid {
+  margin-left: 0px;
+}
+
+h3.dinnerCardLabel {
+  font-size: 24px;
+  color: #fff;
+  font-family: Arvo;
+  font-weight: bold;
+  text-shadow: -3px -3px 0 #222, 3px -3px 0 #222, -3px 3px 0 #222, 3px 3px 0 #222, 4px 4px 0 #fff, 5px 5px 0 #fff, 6px 6px 0 #fff, 7px 7px 0 #fff;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  -moz-transform: scaleY(0.7);
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+ul.IngredientsList li, ol.DirectionsList li {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-size: 29px;
+}
+
+.deleteDinnerButton {
+  font-family: 'Paytone One', sans-serif;
+}
+
+h2.dinnerCardCloser {
+  color: white;
+  font-size: 60px;
+  margin-left: 10px;
+  margin-left: 35%;
+  margin-bottom: 40px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
